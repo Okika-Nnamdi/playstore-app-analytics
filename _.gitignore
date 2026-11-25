@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# NOTE: do NOT ignore *.pkl - the deployed app needs the model files
